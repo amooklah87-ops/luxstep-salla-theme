@@ -1,0 +1,20 @@
+{% extends "layouts/master.twig" %}
+
+{% block content %}
+
+<section class="hero">
+<h2>Luxury Shoes Store</h2>
+<p>Shoes • Bags • Accessories</p>
+</section>
+
+<section class="products">
+{% for product in products %}
+<div class="product">
+<img src="{{ product.image }}">
+<h3>{{ product.name }}</h3>
+<p>{{ product.price }}</p>
+</div>
+{% endfor %}
+</section>
+
+{% endblock %}

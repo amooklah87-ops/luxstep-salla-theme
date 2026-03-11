@@ -1,0 +1,14 @@
+{
+  "name": "LuxStep",
+  "version": "1.0.0",
+  "author": "Reema",
+  "description": "Shoes, bags and accessories store theme",
+  "settings": [
+    {
+      "type": "color",
+      "id": "primary_color",
+      "label": "Primary Color",
+      "default": "#000000"
+    }
+  ]
+}
